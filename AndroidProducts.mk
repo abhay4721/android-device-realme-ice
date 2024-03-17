@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_ice.mk
+    $(LOCAL_DIR)/pixelstar_ice.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_ice-user \
-    derp_ice-userdebug \
-    derp_ice-eng
+    pixelstar_ice-user \
+    pixelstar_ice-userdebug \
+    pixelstar_ice-eng

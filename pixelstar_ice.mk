@@ -11,8 +11,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from ice device
 $(call inherit-product, device/realme/ice/device.mk)
 
-# Inherit some common AOSP stuff.
-$(call inherit-product, vendor/derp/config/common_full_phone.mk)
+# Inherit some common pixelstar stuff.
+$(call inherit-product, vendor/pixelstar/config/common_full_phone.mk)
 
 # Environment Flags
 TARGET_FACE_UNLOCK_SUPPORTED := true
